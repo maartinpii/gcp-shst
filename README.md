@@ -19,9 +19,9 @@ Script desarrollado para el auto apagado y encendido de instancias de tipo Compu
  
 Schedule the scripts as a crontab task:
 
-** Edit crontab 
+* Edit crontab 
 # crontab -e
-** Configure as desired
+* Configure as desired
 # stop at night
 0 22 * * * /{python path} /{path}/gcp-shst.py -p myproject -z southamerica-east1-a -i myinstance -o stop
 # start when getting up
