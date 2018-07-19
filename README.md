@@ -1,4 +1,4 @@
-#GCP Stop & Start 
+# GCP Stop & Start 
 
 Script desarrollado para el auto apagado y encendido de instancias de tipo Compute Engine en GCP
 
