@@ -27,7 +27,7 @@ args = parser.parse_args()
 
 # Set Environment Var for credentials
 try:
-  os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "/root/scripts/ar-fusion-serv-int-prd-01-6014f03cf9b8.json"
+  os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "path4sc"
 except:
   print("FAIL => Not possible to set App Credentials Env Var ")
   raise
